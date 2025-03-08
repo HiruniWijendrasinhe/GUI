@@ -16,6 +16,7 @@ function TaskManager() {
       .catch(error => {
         console.error("Error fetching tasks:", error);
         alert("There was an issue fetching tasks. Please try again later.");
+        
       });
   }, []);
 
