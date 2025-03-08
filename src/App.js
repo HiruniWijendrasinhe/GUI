@@ -1,4 +1,6 @@
-// App.js in the root folder
+// This is a new comment to test if changes are detected
+
+
 import React from "react";
 import TaskManager from "./Index1234.js"; 
 import "./Newform/newform2.css";
@@ -9,7 +11,7 @@ function App() {
   return (
     <div>
       
-      <TaskManager/> {/* Render the ToDoList component here */}
+      <TaskManager/> {}
       
     
     </div>
