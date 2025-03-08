@@ -1,0 +1,85 @@
+.Newsymbol{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+         }
+button {margin-top:20px;
+    padding:10px;
+    border-color:none;
+     border-radius:10%;
+     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+     font-weight:0.8 ;
+    color:white;
+    margin-left: 30px;
+    width: 80px;
+    height:30px;
+    cursor:pointer;
+    align-items: center;
+    justify-content: center;
+        }
+        
+
+     input{width:300px;
+      font-size:16px;
+     
+      
+              } 
+      label { font-Size:19px;
+             font-weight:500;
+             margin-right: 20px;
+      
+              }     
+
+
+      
+  .Layout{
+    display:flex;
+    flex-direction: row;
+    gap:60px;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+        
+              }  
+   .Central{
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+     justify-content: center;   
+              }                
+table{
+    margin:10px;
+   width:800px;
+  
+   border:2px solid black;
+   border-collapse: collapse;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   margin-bottom: 200px;
+     } 
+  th,td {
+    border:5px solid white;
+    padding:2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+       height: 25px;
+       background-color: rgb(188, 156, 201);
+          }
+   
+   
+        
+     
+        
+          .Newalign {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+              }   
+    
+     
