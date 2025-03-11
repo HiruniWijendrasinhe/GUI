@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d6efd; /* Bootstrap Primary Blue */
+}
+
+
+.taskbox {
+    width: 75%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.formcontrol {
+    width:150px;
+    height: 30px,;
+    background: white;
+}
+.ajust {
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.Sub {
+    width: 150px;
+    height: 40px;
+    border-radius: 24%;
+    background-color: blueviolet;
+    color: white;
+}

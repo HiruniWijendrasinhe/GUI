@@ -1,0 +1,129 @@
+
+/* Centers the main container */
+.task-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d6efd; /* Bootstrap Primary Blue */
+}
+
+/* Styles for the inner white box */
+.task-box {
+    width: 75%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Table styling */
+.task-table {
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+}
+.xz {
+    margin-bottom: 1px;
+    width:20%;
+    height:2px;
+}
+
+/* Dark table header */
+.task-table thead {
+    background: white;
+    color: white;
+}
+
+/* Set column width */
+.task-table th, .task-table td {
+    text-align: center;
+    padding: 3px;
+}
+.task-table td:nth-child(3) {
+    background-color: #f8f9fa; /* Light background for action column */
+}
+
+/* Define specific column widths */
+.task-table th:nth-child(1), .task-table td:nth-child(1) {
+    width: 40%; /* Task column */
+}
+
+.task-table th:nth-child(2), .task-table td:nth-child(2) {
+    width: 20%; /* Date column */
+}
+
+.task-table th:nth-child(3), .task-table td:nth-child(3) {
+    width: 40%; /* Action column */
+}
+
+/* Table row height */
+.task-table tbody tr {
+    height: 50px; /* Set row height */
+}
+
+
+
+ /* Set row height */
+
+
+/* Button container */
+
+
+/* Set button width */
+.task-buttons .btn {
+    width: 50px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    justify-content: center;
+    
+}
+
+/* Custom purple Add button */
+.btn-add {
+    background-color: #6f42c1 ;
+    color: white ;
+    border: none;
+    height: 50px;
+    width: 20px; /* Set width for Add button */
+}
+
+.btn-add:hover {
+    background-color: #5a3798 ;
+}
+
+
+.task-cell {
+    padding: 5px; /* Reduce cell padding */
+    text-align: center; /* Center align */
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px; /* Reduce spacing between buttons */
+    justify-content: center; /* Keep buttons in the center */
+    align-items: center; /* Align vertically */
+}
+
+.btx, .bty {
+    width: 80px;  /* Set fixed width */
+    height: 30px; /* Set fixed height */
+    background-color: #611156;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline from <Link> */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.bty {
+    background-color: #4a0c2d;
+}
+
+
