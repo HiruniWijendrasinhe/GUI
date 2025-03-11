@@ -1,0 +1,118 @@
+
+.first{
+   display:flex;
+   flex-direction:row;
+   gap:55px;
+   
+
+    }
+    .Logo{
+      display:flex;
+      flex-direction:row;
+      gap:0px;
+      
+   
+       }
+    .divide{
+      display:flex;
+      flex-direction:row;
+      gap: 130px;
+      width:700px ;
+    width: 80%;
+    height: 120px;
+    border-radius: 30px;
+    background-color: #37072e;
+    align-items: center;
+    margin:45px 0 0 0 ;
+      
+   
+       }
+
+    #page-title {
+      text-align: left;
+      padding-left: 60px;
+       
+       
+  }
+  #special {
+   width: 250px;
+   height: 180px;
+   justify-content: center;
+    
+    
+}
+  
+
+
+
+.new{
+    display:flex;
+    flex-direction: column;
+   
+   align-items: center;
+    
+
+     }
+ .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    gap:20px;
+
+     }    
+ h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-left:25px ;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    
+    text-align: left;
+    
+     }   
+img{
+    display:block;
+    width:200px;
+    height:auto;
+    
+    
+ }
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding:5px;
+    color:black;
+    text-align: center;
+   
+
+     }
+   p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      text-align: justify;
+      margin: 12px;
+      padding: 10px;
+       }   
+
+ .dropdownitem {
+    width:300px;
+    height:450px;
+    border:2px solid white;
+    border-radius:30px ;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+   justify-content: center;
+    
+
+ }   
+    
+ .dropdownitem.work { background-color: #d59acc; } /* Light Red */
+.dropdownitem.home { background-color: #af8eca; } /* Light Green */
+.dropdownitem.academic { background-color: #dca4c3; } /* Light Blue */
